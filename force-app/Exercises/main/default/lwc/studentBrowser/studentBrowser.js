@@ -1,7 +1,7 @@
 import { LightningElement } from 'lwc';
 
 export default class StudentBrowser extends LightningElement {
-    
+    studentList = [];
     constructor() {
         super();
         const studentNames = ['Rad', 'Stuart', 'Andres', 'Rahul', 'Amit', 'Simon'];
