@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 396,
+  "serverMaxRevisionCounter": 399,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -965,6 +965,24 @@
       "serverRevisionCounter": 375,
       "lastRetrievedFromServer": 375,
       "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__DeliveryListAction": {
+      "serverRevisionCounter": 397,
+      "lastRetrievedFromServer": 397,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__DeliveryListAction/DeliveryListAction.cmp": {
+      "serverRevisionCounter": 398,
+      "lastRetrievedFromServer": 398,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "QuickAction__Delivery_List_Action": {
+      "serverRevisionCounter": 399,
+      "lastRetrievedFromServer": 399,
+      "memberType": "QuickAction",
       "isNameObsolete": false
     }
   }
