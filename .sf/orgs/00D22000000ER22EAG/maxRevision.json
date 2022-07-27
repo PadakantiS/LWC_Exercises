@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 348,
+  "serverMaxRevisionCounter": 396,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,14 +326,14 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 285,
-      "lastRetrievedFromServer": 259,
+      "serverRevisionCounter": 378,
+      "lastRetrievedFromServer": 378,
       "memberType": "Profile",
       "isNameObsolete": false
     },
     "Profile__Training User": {
-      "serverRevisionCounter": 170,
-      "lastRetrievedFromServer": 170,
+      "serverRevisionCounter": 379,
+      "lastRetrievedFromServer": 379,
       "memberType": "Profile",
       "isNameObsolete": false
     },
@@ -812,8 +812,8 @@
       "isNameObsolete": false
     },
     "AppMenu__Salesforce1": {
-      "serverRevisionCounter": 171,
-      "lastRetrievedFromServer": 171,
+      "serverRevisionCounter": 394,
+      "lastRetrievedFromServer": 394,
       "memberType": "AppMenu",
       "isNameObsolete": false
     },
@@ -884,26 +884,26 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__studentDetail": {
-      "serverRevisionCounter": 340,
-      "lastRetrievedFromServer": 340,
+      "serverRevisionCounter": 355,
+      "lastRetrievedFromServer": 355,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentDetail/studentDetail.html": {
-      "serverRevisionCounter": 341,
-      "lastRetrievedFromServer": 341,
+      "serverRevisionCounter": 356,
+      "lastRetrievedFromServer": 356,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentDetail/studentDetail.js": {
-      "serverRevisionCounter": 342,
-      "lastRetrievedFromServer": 342,
+      "serverRevisionCounter": 357,
+      "lastRetrievedFromServer": 357,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentDetail/studentDetail.js-meta.xml": {
-      "serverRevisionCounter": 343,
-      "lastRetrievedFromServer": 343,
+      "serverRevisionCounter": 358,
+      "lastRetrievedFromServer": 358,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -917,6 +917,54 @@
       "serverRevisionCounter": 335,
       "lastRetrievedFromServer": 335,
       "memberType": "LightningMessageChannel",
+      "isNameObsolete": false
+    },
+    "ApexClass__CourseDeliveryLocations": {
+      "serverRevisionCounter": 350,
+      "lastRetrievedFromServer": 350,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__deliveryListMap": {
+      "serverRevisionCounter": 351,
+      "lastRetrievedFromServer": 351,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__deliveryListMap/deliveryListMap.js-meta.xml": {
+      "serverRevisionCounter": 354,
+      "lastRetrievedFromServer": 354,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__deliveryListMap/deliveryListMap.js": {
+      "serverRevisionCounter": 352,
+      "lastRetrievedFromServer": 352,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__deliveryListMap/deliveryListMap.html": {
+      "serverRevisionCounter": 353,
+      "lastRetrievedFromServer": 353,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomTab__Deliveries_Map": {
+      "serverRevisionCounter": 377,
+      "lastRetrievedFromServer": 377,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomApplication__standard__LightningSales": {
+      "serverRevisionCounter": 396,
+      "lastRetrievedFromServer": 396,
+      "memberType": "CustomApplication",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Deliveries_Map": {
+      "serverRevisionCounter": 375,
+      "lastRetrievedFromServer": 375,
+      "memberType": "FlexiPage",
       "isNameObsolete": false
     }
   }
