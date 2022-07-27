@@ -12,7 +12,7 @@ error;
     wired_getCertifiedStudents(result) {
         this.certifiedStudents = [];
 if (result.data) {
-this.certifiedStudents = result.data.map(certHeld
+this.certifiedStudents = result.data.map(certHeld =>
  ({
 certificationHeldId: certHeld.Id,
 contactId:
@@ -29,4 +29,26 @@ certHeld.Certified_Professional__r.Phone
 this.error = result.error;
 }
     }
+    columnConfig = [
+        {
+        label: 'Name',
+        fieldName: 'name',
+        type: 'text'
+        },
+        {
+        label: 'Date',
+        fieldName: 'date',
+        type: 'text'
+        },
+        {
+        label: 'Email',
+        fieldName: 'email',
+        type: 'email'
+        },
+        {
+        label: 'Phone',
+        fieldName: 'phone',
+        type: 'phone'
+        }
+        ];
 }
