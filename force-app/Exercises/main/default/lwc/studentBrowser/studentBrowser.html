@@ -2,8 +2,10 @@
     <c-student-browser-form></c-student-browser-form>
     <lightning-tabset variant="scoped">
         <lightning-tab label="Gallery">
+            <div class="slds-scrollable scrollerSize" >
             <c-student-tiles student-list={students.data} onstudentselected={handleStudentSelected}>
             </c-student-tiles>
+        </div>
         </lightning-tab>
     </lightning-tabset>
 </template>
