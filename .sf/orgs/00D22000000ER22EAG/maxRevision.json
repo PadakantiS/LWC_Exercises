@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 485,
+  "serverMaxRevisionCounter": 498,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,14 +326,14 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 481,
-      "lastRetrievedFromServer": 481,
+      "serverRevisionCounter": 487,
+      "lastRetrievedFromServer": 487,
       "memberType": "Profile",
       "isNameObsolete": false
     },
     "Profile__Training User": {
-      "serverRevisionCounter": 482,
-      "lastRetrievedFromServer": 482,
+      "serverRevisionCounter": 488,
+      "lastRetrievedFromServer": 488,
       "memberType": "Profile",
       "isNameObsolete": false
     },
@@ -428,8 +428,8 @@
       "isNameObsolete": false
     },
     "CustomObject__Course_Attendee__c": {
-      "serverRevisionCounter": 96,
-      "lastRetrievedFromServer": 96,
+      "serverRevisionCounter": 498,
+      "lastRetrievedFromServer": 498,
       "memberType": "CustomObject",
       "isNameObsolete": false
     },
@@ -674,8 +674,8 @@
       "isNameObsolete": false
     },
     "PermissionSet__Certification": {
-      "serverRevisionCounter": 483,
-      "lastRetrievedFromServer": 483,
+      "serverRevisionCounter": 490,
+      "lastRetrievedFromServer": 490,
       "memberType": "PermissionSet",
       "isNameObsolete": false
     },
@@ -1049,6 +1049,54 @@
       "serverRevisionCounter": 480,
       "lastRetrievedFromServer": 480,
       "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "ListView__Course_Attendee__c.All": {
+      "serverRevisionCounter": 489,
+      "lastRetrievedFromServer": 489,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "CustomTab__Course_Attendee__c": {
+      "serverRevisionCounter": 486,
+      "lastRetrievedFromServer": 486,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__Override_View_CourseAttendee": {
+      "serverRevisionCounter": 496,
+      "lastRetrievedFromServer": 496,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Override_View_CourseAttendee/Override_View_CourseAttendee.cmp": {
+      "serverRevisionCounter": 497,
+      "lastRetrievedFromServer": 497,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__courseAttendee": {
+      "serverRevisionCounter": 492,
+      "lastRetrievedFromServer": 492,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__courseAttendee/courseAttendee.html": {
+      "serverRevisionCounter": 493,
+      "lastRetrievedFromServer": 493,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__courseAttendee/courseAttendee.js": {
+      "serverRevisionCounter": 494,
+      "lastRetrievedFromServer": 494,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__courseAttendee/courseAttendee.js-meta.xml": {
+      "serverRevisionCounter": 495,
+      "lastRetrievedFromServer": 495,
+      "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
   }
