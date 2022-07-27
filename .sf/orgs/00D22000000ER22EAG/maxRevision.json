@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 432,
+  "serverMaxRevisionCounter": 475,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -434,8 +434,8 @@
       "isNameObsolete": false
     },
     "CustomObject__Course_Delivery__c": {
-      "serverRevisionCounter": 97,
-      "lastRetrievedFromServer": 97,
+      "serverRevisionCounter": 454,
+      "lastRetrievedFromServer": 454,
       "memberType": "CustomObject",
       "isNameObsolete": false
     },
@@ -989,6 +989,36 @@
       "serverRevisionCounter": 432,
       "lastRetrievedFromServer": 432,
       "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__deliveryDetailMap": {
+      "serverRevisionCounter": 433,
+      "lastRetrievedFromServer": 433,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.js": {
+      "serverRevisionCounter": 434,
+      "lastRetrievedFromServer": 434,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.html": {
+      "serverRevisionCounter": 435,
+      "lastRetrievedFromServer": 435,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.js-meta.xml": {
+      "serverRevisionCounter": 436,
+      "lastRetrievedFromServer": 436,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Course_Delivery_with_a_Map": {
+      "serverRevisionCounter": 475,
+      "lastRetrievedFromServer": 475,
+      "memberType": "FlexiPage",
       "isNameObsolete": false
     }
   }
