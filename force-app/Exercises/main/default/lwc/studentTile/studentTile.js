@@ -23,4 +23,5 @@ export default class StudentTile extends LightningElement {
 						this.dispatchEvent(evt) ;
 	}
 	
+	
 }
