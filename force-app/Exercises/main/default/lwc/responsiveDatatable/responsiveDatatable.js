@@ -70,5 +70,11 @@ set rowData(value) {
 	this.rows = this.reformatRows(value);
 	}
 	}
-
+	@api setSelectedRecord(recordId) {
+		const mySelector = `tr[data-pk='${recordId}']`;
+		const selectedRow = this.template.querySelector(mySelector);
+if (selectedRow) {
+this.highlightSelectedRow(selectedRow);
+}
+	}
 }

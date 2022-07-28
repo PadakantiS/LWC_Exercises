@@ -46,9 +46,21 @@ handleFilterChange(event){
     this.updateSelectedStudent(studentId);
     }
     updateSelectedStudent(studentId){
+      const grid =
+this.template.querySelector('c-responsive-datatable');
+const gallery =
+this.template.querySelector('c-student-tiles');
+if (gallery) {
+  gallery.setSelectedStudent(studentId);
+  }
+  if (grid) {
+  grid.setSelectedRecord(studentId);
+  }
+  
       publish(this.messageContext, SELECTED_STUDENT_CHANNEL, {
       studentId: studentId
       });
+      
       }
       handleRowDblClick(event) {
         const studentId = event.detail.pk;
