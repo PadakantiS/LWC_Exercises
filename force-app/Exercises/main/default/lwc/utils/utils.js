@@ -12,6 +12,14 @@ export default class Utils {
                 });
                 firingComponent.dispatchEvent(evt);    
         }
+    static showModal = (firingComponent, header, content) => {
+        const evt = new CustomEvent(' showmodal ', {});
+        detail: {
+            header,
+            content
+            }
+            
+        }    
     static getDisplayValue(data, field) {
             return getFieldDisplayValue(data, field) ?
             getFieldDisplayValue(data, field) : getFieldValue(data,
