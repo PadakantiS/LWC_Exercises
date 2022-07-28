@@ -4,15 +4,39 @@ import { publish, MessageContext } from
 'lightning/messageService';
 import SELECTED_STUDENT_CHANNEL from
 '@salesforce/messageChannel/SelectedStudentChannel__c';
-export default class StudentBrowser extends LightningElement {
+import {NavigationMixin} from 'lightning/navigation'
+export default class StudentBrowser extends NavigationMixin(LightningElement) {
   //@wire(getStudents, { instructorId: "", courseDeliveryId:""})
   //students;
+  selectedDeliveryId = '';
+selectedInstructorId = '';
   @wire(MessageContext) messageContext;
   @wire(getStudents, { instructorId: '$selectedInstructorId',
 courseDeliveryId: '$selectedDeliveryId' })
 students;
-selectedDeliveryId = '';
-selectedInstructorId = '';
+cols = [
+  {
+  fieldName:"Name",
+  label: "Name"
+  },
+  {
+  fieldName:"Title",
+  label: "Title",
+  hiddenOnMobile: true
+  },
+  {
+  fieldName:"Phone",
+  label: "Phone",
+  type: "phone"
+  },
+  {
+  fieldName:"Email",
+  label: "E-Mail",
+  type: "email"
+  }
+  ];
+
+
 handleFilterChange(event){
   this.selectedDeliveryId = event.detail.deliveryId;
   this.selectedInstructorId = event.detail.instructorId;
