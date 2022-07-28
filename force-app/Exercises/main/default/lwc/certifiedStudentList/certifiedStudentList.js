@@ -6,6 +6,8 @@ import deleteStudentCertification from
 '@salesforce/apex/CertifiedStudentList.deleteStudentCertification';
 import { refreshApex } from '@salesforce/apex';
 import Utils from 'c/utils';
+import LABEL_FEATURE_NOT_AVAILABLE from
+'@salesforce/label/c.Feature_Not_Available';
 export default class CertifiedStudentList extends LightningElement {
     @api certificationId = 0;
 @api certificationName = '';
@@ -98,6 +100,7 @@ const ids = datatable.getSelectedRows().map( (r) => (
                 });
                 }
                 notAvailable() {
-                    Utils.showModal(this,'Not Available', 'This feature is currently unavailable');
+                    Utils.showModal(this,'Not Available',
+                    LABEL_FEATURE_NOT_AVAILABLE);
                     }            
 }
