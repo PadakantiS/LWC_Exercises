@@ -50,5 +50,16 @@ handleFilterChange(event){
       studentId: studentId
       });
       }
+      handleRowDblClick(event) {
+        const studentId = event.detail.pk;
+        this[NavigationMixin.Navigate]({
+          type: 'standard__recordPage',
+          attributes: {
+          recordId: studentId,
+          objectApiName: 'Contact',
+          actionName: 'edit'
+          }
+          });
+        }
           
 }
